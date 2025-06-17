@@ -1,0 +1,11 @@
+{
+  "interfaceFontFamily": "Cascadia Code",
+  "textFontFamily": "Cascadia Code",
+  "cssTheme": "Dracula for Obsidian",
+  "accentColor": "",
+  "theme": "obsidian",
+  "monospaceFontFamily": "Cascadia Mono",
+  "enabledCssSnippets": [
+    "fix-cascadia-code-headings"
+  ]
+}
