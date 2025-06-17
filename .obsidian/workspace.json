@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 239.5,
+    "collapsed": true
   },
   "right": {
     "id": "9faa6e3c20cfda7d",
@@ -170,6 +171,7 @@
   },
   "active": "5e751ccf4fc980cf",
   "lastOpenFiles": [
+    "✅ Функция расстановки и алгоритм Пирсона.md",
     "Полный_конспект_ТП.md",
     "Конспект_ТП.md"
   ]
