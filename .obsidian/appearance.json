@@ -3,7 +3,7 @@
   "textFontFamily": "Cascadia Code",
   "cssTheme": "Blue Topaz",
   "accentColor": "",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "monospaceFontFamily": "Cascadia Mono",
   "enabledCssSnippets": [
     "fix-cascadia-code-headings"
