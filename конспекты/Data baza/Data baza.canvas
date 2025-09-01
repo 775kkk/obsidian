@@ -1,7 +1,11 @@
 {
 	"nodes":[
-		{"id":"ba2e1dc3d55c591f","x":-120,"y":-180,"width":945,"height":50,"color":"1","type":"text","text":"# РЕШЕНИЕ - ХРАНИТЬ ДАННЫЕ И МЕТАДАННЫЕ(ДАННЫЕ О ДАННЫХ) ВМЕСТЕ"},
-		{"id":"fb7a2b864a763dc4","x":345,"y":-81,"width":250,"height":60,"type":"text","text":"База данных"}
+		{"id":"ba2e1dc3d55c591f","type":"text","text":"# РЕШЕНИЕ - ХРАНИТЬ ДАННЫЕ И МЕТАДАННЫЕ(ДАННЫЕ О ДАННЫХ) ВМЕСТЕ","x":-120,"y":-180,"width":945,"height":50,"color":"1"},
+		{"id":"fb7a2b864a763dc4","type":"text","text":"### База данных - файлы, снабженные описанием хранимых в них данных и находящиеся под управлением специальных программных комплексов, называемых \"Системы управления базами данных\" (СУБД)","x":-120,"y":-80,"width":755,"height":161,"color":"3"},
+		{"id":"63b0b986a4201758","x":-148,"y":120,"width":812,"height":160,"color":"2","type":"text","text":"• Результатом SQL запроса является результирующий набор (как правило - таблица)\n• DDL (Data Definition Language) - CREATE, ALTER, DROP\n• DML (Data Manipulation Language) - SELECT, INSERT, UPDATE, DELETE\n• TCL (Transaction Control Language) - COMMIT, ROLLBACK, SAVEPOINT\n• DCL (Data Control Language) - GRANT, REVOKE, DENY"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"6931cd81d0af2cb9","fromNode":"ba2e1dc3d55c591f","fromSide":"bottom","toNode":"fb7a2b864a763dc4","toSide":"top"},
+		{"id":"aa91e9ba8e76d1b5","fromNode":"fb7a2b864a763dc4","fromSide":"top","toNode":"ba2e1dc3d55c591f","toSide":"bottom"}
+	]
 }
