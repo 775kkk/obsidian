@@ -1,11 +1,23 @@
 {
 	"nodes":[
-		{"id":"ba2e1dc3d55c591f","type":"text","text":"# РЕШЕНИЕ - ХРАНИТЬ ДАННЫЕ И МЕТАДАННЫЕ(ДАННЫЕ О ДАННЫХ) ВМЕСТЕ","x":-120,"y":-180,"width":945,"height":50,"color":"1"},
-		{"id":"fb7a2b864a763dc4","type":"text","text":"### База данных - файлы, снабженные описанием хранимых в них данных и находящиеся под управлением специальных программных комплексов, называемых \"Системы управления базами данных\" (СУБД)","x":-120,"y":-80,"width":755,"height":161,"color":"3"},
-		{"id":"63b0b986a4201758","x":-148,"y":120,"width":812,"height":160,"color":"2","type":"text","text":"• Результатом SQL запроса является результирующий набор (как правило - таблица)\n• DDL (Data Definition Language) - CREATE, ALTER, DROP\n• DML (Data Manipulation Language) - SELECT, INSERT, UPDATE, DELETE\n• TCL (Transaction Control Language) - COMMIT, ROLLBACK, SAVEPOINT\n• DCL (Data Control Language) - GRANT, REVOKE, DENY"}
+		{"id":"a4cefe5860d05286","type":"text","text":"Выборка (SELECT SELECT SELECT)\n```sql\nSELECT * // выбрать все\nFROM `таблица` // откуда(название)\n```","x":1630,"y":-500,"width":377,"height":140},
+		{"id":"e51317f564b5368c","type":"text","text":"# northwind","x":3920,"y":-680,"width":163,"height":50,"color":"1"},
+		{"id":"3d4a69135b88488b","type":"text","text":"```sql\nSELECT product_id,product_name,unit_price // перечесляем что хотим выбрать\nFROM `таблица` // откуда(название)\n```\n```sql\nSELECT product_id,product_name,unit_price * product_in_stok // перемножит 2 таблицы и выведет новую неивестную - результирующую\nFROM `таблица` // откуда(название)\n```","x":1460,"y":-320,"width":1060,"height":220},
+		{"id":"ffbc7464d033f556","type":"text","text":"```sql\nSELECT DISTINCT city, country // distinct убирает незнячащие дубликаты\nFROM employees\n```","x":1366,"y":-60,"width":624,"height":110},
+		{"id":"790dc0b263b1eb3b","type":"text","text":"```sql\nSELECT COUNT (*) // каунт посчитает колво строк (* - всех)\nFROM orders\n```","x":2020,"y":-55,"width":541,"height":101},
+		{"id":"a6f8773d3dfe05fc","type":"text","text":"```sql\nSELECT COUNT (DISTINCT country) // посчитает колво стран (уник)\nFROM employees\n```","x":2030,"y":50,"width":550,"height":111},
+		{"id":"ba2e1dc3d55c591f","type":"text","text":"# РЕШЕНИЕ - ХРАНИТЬ ДАННЫЕ И МЕТАДАННЫЕ(ДАННЫЕ О ДАННЫХ) ВМЕСТЕ","x":-292,"y":-1120,"width":945,"height":50,"color":"1"},
+		{"id":"fb7a2b864a763dc4","type":"text","text":"### База данных - файлы, снабженные описанием хранимых в них данных и находящиеся под управлением специальных программных комплексов, называемых \"Системы управления базами данных\" (СУБД)","x":-292,"y":-1020,"width":755,"height":161,"color":"3"},
+		{"id":"63b0b986a4201758","type":"text","text":"• Результатом SQL запроса является результирующий набор (как правило - таблица)\n• DDL (Data Definition Language) - CREATE, ALTER, DROP\n• DML (Data Manipulation Language) - SELECT, INSERT, UPDATE, DELETE\n• TCL (Transaction Control Language) - COMMIT, ROLLBACK, SAVEPOINT\n• DCL (Data Control Language) - GRANT, REVOKE, DENY","x":-320,"y":-820,"width":812,"height":160,"color":"2"},
+		{"id":"e23a2e874cc730ca","x":1320,"y":106,"width":540,"height":234,"type":"text","text":"# Фильтрация (WHERE)\n```sql\nSELECT DISTINCT city, country\nFROM employees\nWHERE `coundition` // условие истина (ограничения =><>=<=<>!=)\n```\n#### WHERE country = 'USA'"}
 	],
 	"edges":[
 		{"id":"6931cd81d0af2cb9","fromNode":"ba2e1dc3d55c591f","fromSide":"bottom","toNode":"fb7a2b864a763dc4","toSide":"top"},
-		{"id":"aa91e9ba8e76d1b5","fromNode":"fb7a2b864a763dc4","fromSide":"top","toNode":"ba2e1dc3d55c591f","toSide":"bottom"}
+		{"id":"aa91e9ba8e76d1b5","fromNode":"fb7a2b864a763dc4","fromSide":"top","toNode":"ba2e1dc3d55c591f","toSide":"bottom"},
+		{"id":"2b64a6e88877e514","fromNode":"e51317f564b5368c","fromSide":"left","toNode":"a4cefe5860d05286","toSide":"top"},
+		{"id":"66d6d12f8d2510a5","fromNode":"a4cefe5860d05286","fromSide":"bottom","toNode":"3d4a69135b88488b","toSide":"top"},
+		{"id":"5010309c324cecb5","fromNode":"3d4a69135b88488b","fromSide":"bottom","toNode":"ffbc7464d033f556","toSide":"top"},
+		{"id":"a946a849390ee9f3","fromNode":"ffbc7464d033f556","fromSide":"right","toNode":"790dc0b263b1eb3b","toSide":"left"},
+		{"id":"59838e30bfcdf003","fromNode":"790dc0b263b1eb3b","fromSide":"bottom","toNode":"a6f8773d3dfe05fc","toSide":"top"}
 	]
 }
