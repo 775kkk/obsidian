@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"163367bfcb3f0546","type":"file","file":"конспекты/random lek/Дискретная математика Лекция.md","x":-1560,"y":-400,"width":880,"height":1040},
+		{"id":"d91f34213f6d78cf","type":"file","file":"конспекты/random lek/Топ Преподователей.md","x":-2280,"y":-940,"width":480,"height":180},
+		{"id":"bfc652dc1570abf7","type":"file","file":"конспекты/random lek/ООП лекция.md","x":-2480,"y":-520,"width":520,"height":160}
+	],
+	"edges":[]
+}
