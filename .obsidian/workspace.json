@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "конспекты/безимянность/databaza_Laba1.canvas",
+                "file": "конспекты/безимянность/databaza_Laba1_counted.canvas",
                 "viewState": {
-                  "x": -2239.2801297431024,
-                  "y": -557.1324823214039,
-                  "zoom": -0.7359759361900278
+                  "x": -1619.2475587168674,
+                  "y": 58.09487078733956,
+                  "zoom": -0.5494326951182944
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "databaza_Laba1"
+              "title": "databaza_Laba1_counted"
             }
           }
         ]
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9faa6e3c20cfda7d",
@@ -176,18 +175,21 @@
   },
   "active": "fd7c92d84d4ea6d0",
   "lastOpenFiles": [
+    "конспекты/безимянность/databaza_Laba1.canvas",
+    "конспекты/безимянность/databaza_Laba1_counted.canvas",
+    "конспекты/Data baza/Data baza.canvas",
+    "конспекты/random lek/YpravDataLaba1visualiz.canvas",
+    "конспекты/random lek/безымянныйКонспект.canvas",
+    "конспекты/random lek/lekErmakov2.canvas",
+    "конспекты/random lek/lekErmakov1.canvas",
     "Без названия 1.base",
     "Без названия.base",
-    "конспекты/безимянность/databaza_Laba1.canvas",
     "Мейновый_конспеккт.md",
     "Конспект_Ответы_ТП.md",
-    "конспекты/random lek/lekErmakov.canvas",
     "конспекты/java/lekErmakov.canvas",
-    "конспекты/random lek/YpravDataLaba1visualiz.canvas",
     "конспекты/random lek/Топ Преподователей.md",
     "конспекты/random lek/lab1.md",
     "конспекты/random lek/ООП лекция.md",
-    "конспекты/random lek/безымянныйКонспект.canvas",
     "списокТемData/Массив.md",
     "Человек и его вирт система.md",
     "Фокус-Группа.md",
@@ -200,7 +202,6 @@
     "class_modifiers.svg",
     "Список тем.md",
     "конспекты/java/mainTred.canvas",
-    "конспекты/Data baza/Data baza.canvas",
     "конспекты/Data baza/Без названия.base",
     "конспекты/Data baza",
     "конспекты/java/photo_2019-08-09_16-54-47.svg",
@@ -226,7 +227,6 @@
     "УБЕЖИЩЕ",
     "диалог_о_душе_и_интеллекте_тёмная_тема.html",
     "209E53~1.jpg",
-    "списокТемData",
-    "конспекты"
+    "списокТемData"
   ]
 }
